@@ -73,7 +73,7 @@ export default function Page() {
   const checkBingoLines = () => {
     if (todos.length === 0) return 0;
 
-    const grid = Array(5).fill().map(() => Array(5).fill(false));
+    const grid = Array(5).fill(false).map(() => Array(5).fill(false));
 
     todos.forEach((todo, index) => {
       if (todo.completed && index < 25) {
