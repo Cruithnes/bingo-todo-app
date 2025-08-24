@@ -38,7 +38,7 @@ export default function Page() {
     { id: 22, text: 'Alışveriş listesi hazırla', completed: false },
     { id: 23, text: 'Bitkileri sula', completed: false },
     { id: 24, text: 'Gitar çalış', completed: false },
-    { id: 25, text: 'Ayı hayrnlıkla izle', completed: false },
+    { id: 25, text: 'Uyumadan önce onun fotolarına bak', completed: false },
   ]
 
   const [todos, setTodos] = useState(initialTodos);
